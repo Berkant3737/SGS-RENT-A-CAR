@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.OurServices-İtem-Content {
+    padding: 0px 150px 0px 150px;
+}
+
+.OurServices-İtem-Content img {
+    width: 800px;
+    height: 600px;
+}
+
+.OurServices-İtem-Content p {
+    font-size: 19px;
+    font-family: Open Sans, sans-serif;
+}

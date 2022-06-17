@@ -1,0 +1,13 @@
+.wehicle-photo {
+    width: 700px;
+    height: 500px;
+}
+
+.wehicle-photo:hover {
+    cursor: pointer;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}

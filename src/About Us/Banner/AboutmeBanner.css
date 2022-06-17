@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.item-banner {
+    width: 100%;
+    height: 150px;
+    background: url("https://cutewallpaper.org/21/white-background-hd-wallpaper/White-Background-Wallpaper-Hd-1080p-56+-Group-Wallpapers.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.item-banner h1 {
+    color: #555555;
+    padding: 0px 150px 0px 150px;
+    font-family: Montserrat;
+}
+
+@media (max-width:768px) {
+    .item-banner {
+        padding: 0px 0px 0px 0px;
+    }
+}

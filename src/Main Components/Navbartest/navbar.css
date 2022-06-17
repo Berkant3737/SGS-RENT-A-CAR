@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.navbar {
+    background-color: black;
+    padding: 15px 140px 15px 140px;
+    position: relative;
+}
+
+.navbar-brand {
+    color: #01d28e;
+    font-family: Pacifico;
+    font-size: 25px;
+}
+
+.navbar-brand:hover {
+    color: #0080ff;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 15px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.nav-item .nav-link:hover {
+    color: #0080ff;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+@media (max-width:768px) {
+    .navbar {
+        padding: 0px 0px 0px 0px;
+    }
+    .navbar-collapse {
+        color: white;
+        background-color: #2c3e50;
+        text-align: center;
+        padding-bottom: 100px;
+        display: block;
+    }
+    .navbar .nav-item .nav-link {
+        font-size: 2rem;
+        padding: 20px 0px 20px 0px;
+    }
+    .navbar .nav-link:hover {
+        border: 2px #FFF323 solid;
+        border-radius: 50px;
+    }
+}
+
+.line {
+    width: 0px;
+    height: 2px;
+    background-color: white;
+    visibility: hidden;
+    transition: all 0.5s ease;
+}
+
+a:hover+.line {
+    width: 70%;
+    visibility: visible !important;
+}

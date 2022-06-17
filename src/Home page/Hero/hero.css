@@ -1,0 +1,13 @@
+.hero {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(39, 145, 216);
+}
+
+.hero-text h4 {
+    font-size: 30px;
+    font-family: Open Sans;
+    font-family: 400;
+    font-weight: 600;
+    line-height: 40px;
+}

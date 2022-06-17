@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+.aboutme-text {
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.aboutme-text h1 {
+    color: #3a6ee8;
+    font-size: 50px;
+    font-family: Oswald;
+    font-weight: 500;
+}
+
+.aboutme-text p {
+    color: #6d6d6d;
+    font-size: 17px;
+    font-family: Open Sans;
+    font-weight: 500;
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+
+@media (max-width:768px) {
+    .aboutme-text {
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+
+/*# sourceMappingURL=AboutUs.css.map */
