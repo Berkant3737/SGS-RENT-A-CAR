@@ -2,19 +2,11 @@ import React, { Component } from "react";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import "./WehicleThree.css";
-import photo1 from "./img/Fotoğraf1.jpg";
-import photo2 from "./img/Fotoğraf2.jpg";
-import photo3 from "./img/Fotoğraf3.jpg";
-import photo4 from "./img/Fotoğraf4.jpg";
+import photo1 from "./img/Fotoğraf2.jpg";
+import photo2 from "./img/Fotoğraf3.jpg";
+import photo3 from "./img/Fotoğraf4.jpg";
 
-
-
-const images = [
-  photo1,
-  photo2,
-  photo3,
-  photo4
-];
+const images = [photo1, photo2, photo3];
 
 export default class LightboxExample extends Component {
   constructor(props) {
@@ -36,8 +28,8 @@ export default class LightboxExample extends Component {
             <p className="fs-5">Resmi büyütmek için üzerine tıklayınız</p>
             <img
               src={photo1}
-             className="wehicle-photo"
-             style={{height:"650px"}}
+              className="wehicle-photo"
+              style={{ height: "650px" }}
               onClick={() => this.setState({ isOpen: true })}
             />
           </div>

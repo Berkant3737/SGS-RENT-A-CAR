@@ -2,17 +2,13 @@ import React, { Component } from "react";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import "./WehicleFive.css";
-import photo1 from "./img/Fotoğraf1.jpg";
-import photo2 from "./img/Fotoğraf2.jpg";
-import photo3 from "./img/Fotoğraf3.jpg";
-import photo4 from "./img/Fotoğraf4.jpg";
+import photo1 from "./img/Fotoğraf3.jpg";
+import photo2 from "./img/Fotoğraf4.jpg";
 
 
 const images = [
   photo1,
-  photo2,
-  photo3,
-  photo4
+  photo2
 ];
 
 export default class LightboxExample extends Component {

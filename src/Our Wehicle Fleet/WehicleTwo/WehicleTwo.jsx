@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import "./WehicleTwo.css"
-import photo1 from "./img/Fotoğraf1.jpg";
 import photo2 from "./img/Fotoğraf2.jpg";
 import photo3 from "./img/Fotoğraf3.jpg";
 import photo4 from "./img/Fotoğraf4.jpg";
@@ -11,7 +10,6 @@ import photo5 from "./img/Fotoğraf5.jpg";
 
 
 const images = [
-  photo1,
   photo2,
   photo3,
   photo4,
@@ -38,7 +36,7 @@ export default class LightboxExample extends Component {
           <div className="col-12 text-center">
             <p className="fs-5">Resmi büyütmek için üzerine tıklayınız</p>
             <img
-              src={photo1}
+              src={photo2}
              className="wehicle-photo"
              style={{height:"650px"}}
               onClick={() => this.setState({ isOpen: true })}

@@ -2,17 +2,17 @@ import React from "react";
 import Navbar from "../Main Components/Navbartest/Navbar";
 import OurWehicleBanner from "./OurWehicleFleetBanner/OurWehicleFleetBanner";
 import Footer from "../Main Components/Footer/Footer";
-import "./OurWehicleFleet.css"
+import "./OurWehicleFleet.css";
 
 function FleetContent() {
   return (
     <div>
-      <Navbar/>
-      <OurWehicleBanner/>
+      <Navbar />
+      <OurWehicleBanner />
       <div className="container pt-5">
         <div className="row d-flex justify-content-center">
           {/* Column One */}{" "}
-          <div className="col-12 col-md-4 me-5">
+          <div className="col-12 col-md-4 me-md-4 mb-4">
             <div class="card arac-card text-center">
               <a href="/arac1">
                 {" "}
@@ -33,7 +33,7 @@ function FleetContent() {
           </div>
           {/* Column One */}
           {/* Column Two */}{" "}
-          <div className="col-12 col-md-4 ms-5">
+          <div className="col-12 col-md-4 me-md-4 mb-4">
             <div class="card arac-card text-center">
               <a href="/arac2">
                 {" "}
@@ -53,7 +53,7 @@ function FleetContent() {
             </div>
           </div>
           {/* Column Three */}
-          <div className="col-12 col-md-4 me-5">
+          <div className="col-12 col-md-4 me-md-4 mb-4">
             <div class="card arac-card text-center">
               <a href="/arac3">
                 {" "}
@@ -74,7 +74,7 @@ function FleetContent() {
           </div>
           {/* Column Three */}
           {/* Column Four */}{" "}
-          <div className="col-12 col-md-4 ms-5">
+          <div className="col-12 col-md-4 mb-4">
             <div class="card arac-card text-center">
               <a href="/arac4">
                 {" "}
@@ -95,7 +95,7 @@ function FleetContent() {
           </div>
           {/* Column Four */}
           {/* Column Five */}
-          <div className="col-12 col-md-4 me-5">
+          <div className="col-12 col-md-4 me-md-4 mb-4">
             <div class="card arac-card text-center">
               <a href="/arac5">
                 {" "}
@@ -116,10 +116,8 @@ function FleetContent() {
           </div>
           {/* Column Five */}
 
-          {/* Column Six */}{" "}
-          <div className="col-12 col-md-4 ms-5">
-           
-          </div>
+          {/* Column Six */}
+          <div className="col-12 col-md-4"></div>
           {/* Column Six */}
         </div>
       </div>

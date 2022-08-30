@@ -12,12 +12,7 @@ function ContactUsForm() {
                       <h5>info@istanbulvitokiralama.com</h5>
                       <h5>+(90)212 288 24 25 / +(90) 555 865 66 19</h5>
                   </div>
-                  <div className="contactus-form-body">
-                      <form action="">
-                        <input type="text" placeholder='Ad'/>
-                        <input type="text" placeholder='Soyad'/>
-                      </form>
-                  </div>
+             
               </div>
           </div>
       </div>

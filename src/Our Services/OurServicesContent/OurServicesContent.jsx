@@ -9,7 +9,7 @@ function OurServices() {
         <div className="container">
           <div className="row justify-content-center">
             {/* Column one*/}
-            <div className="col-12 col-md-5">
+            <div className="col-12 col-md-5 mb-4">
               <div class="card text-center">
                 <img
                   src="https://media.istockphoto.com/vectors/best-shopping-tour-design-concept-big-red-paper-bag-vector-id639846338?k=20&m=639846338&s=170667a&w=0&h=qCAffxEbbT9RRB6I4QuSlRdyhVxbdxNlu8l1ZHvngDM="
@@ -32,7 +32,7 @@ function OurServices() {
             </div>
             {/* Column one */}
             {/* Column two */}
-            <div className="col-12 col-md-5">
+            <div className="col-12 col-md-5 mb-4">
               <div class="card text-center">
                 <img
                   src="https://hopi.com.tr/getmedia/59eb3314-810f-4a55-b1b7-440eaf5a84d1/640x498.jpg?width=640&height=498&ext=.jpg"
@@ -56,7 +56,7 @@ function OurServices() {
             </div>
             {/* Column two */}
             {/* Column three */}
-            <div className="col-12 col-md-5">
+            <div className="col-12 col-md-5 mb-4">
               <div class="card text-center">
                 <img
                   src="https://seyahatdergisi.com/wp-content/uploads/2015/05/Sultan-Ahmet-Camii-Resimleri.jpg"
@@ -80,7 +80,7 @@ function OurServices() {
             </div>
             {/* Column three */}
             {/* Column four */}{" "}
-            <div className="col-12 col-md-5">
+            <div className="col-12 col-md-5 mb-4">
               <div class="card text-center">
                 <img
                   src="https://hopi.com.tr/getmedia/59eb3314-810f-4a55-b1b7-440eaf5a84d1/640x498.jpg?width=640&height=498&ext=.jpg"
@@ -103,7 +103,7 @@ function OurServices() {
             </div>
             {/* Column four */}
             {/* Column five */}{" "}
-            <div className="col-12 col-md-5">
+            <div className="col-12 col-md-5 mb-4">
               <div class="card text-center">
                 <img
                   src="https://i.hizliresim.com/f8hvla1.jpg"
@@ -128,7 +128,7 @@ function OurServices() {
             </div>
             {/* Column five */}
             {/* Column five */}{" "}
-            <div className="col-12 col-md-5">
+            <div className="col-12 col-md-5 mb-4">
               <div class="card text-center">
                 <img
                   src="https://static.wixstatic.com/media/27be12_57ff2a703f5942eeac8b21b47eb20d35~mv2.jpg/v1/crop/x_382,y_0,w_460,h_360/fill/w_479,h_432,al_c,lg_1,q_80/istanbul_vito_kiralama_limousine_01.webp"
